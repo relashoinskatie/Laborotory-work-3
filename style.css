@@ -1,0 +1,198 @@
+body{
+    background-color: antiquewhite;
+    color: #140f0b;
+    text-shadow: 2px -3px 8px gray;
+}
+
+h3{
+    color: #000;
+}
+
+.photo{
+    border-radius: 30%;
+    box-shadow: 6px -3px 8px gray;
+
+}
+
+.info p {
+    color: #464544;    
+}
+
+.info{
+    display: flex;  
+}
+
+.meme{
+    margin-left: 100px;
+    margin-right: 220px;
+    font-size: 24px;
+    background: #ffdead;
+    border-radius: 30px;
+    padding: 20px 13px;
+    border: 2px solid black;
+}
+
+.tit{
+    margin-left: 80px;
+    font-size: 26px;
+   
+}
+
+.aboutme{
+    box-shadow: 6px -3px 8px gray;
+    border-radius: 25px;
+}
+
+.lovely{
+    display: flex;
+    justify-content: space-between;
+}
+
+.lovely p{
+    display: flex;
+    padding: 20px;
+    font-size: 20px;
+    color: #464544;
+    border-radius: 30px;
+    margin: 18px;
+    border: 2px solid black;
+    background: #ffdead;
+}
+
+.obomne p{
+    font-size: 30px;
+    text-align: center;
+}
+
+.first{
+    display: flex;
+    justify-content:right;
+    
+    
+}
+
+.first img{
+    padding: 0px;
+    border-radius: 30%;
+    margin: 15px;
+    box-shadow: 6px -3px 8px gray;
+        
+}
+
+.sport {
+    text-align: center;
+}
+
+.sport p{
+    padding-left: 150px;
+    position: relative;
+    bottom: 20px;
+    color: rgb(141, 131, 131);
+    text-shadow: none;
+    font-size: 20px;
+}
+
+.sport a{
+    color: #000;
+    font-size: 30px;
+}
+
+.but{
+    text-align: center;
+}
+
+
+.accordion {
+    background-color: #ffdead;
+    color:black;
+    cursor: pointer;
+    padding: 25px;
+    width: 100%;
+    text-align: left;
+    border: 2px solid rgb(78, 56, 56);
+    border-radius: 5px;
+    outline: 3px;
+    transition: 0.4s;
+    font-size: 20px;
+}
+
+  .active, .accordion:hover {
+    background-color:#794d20;
+}
+  
+  
+.panel {
+    padding: 0 18px;
+    background-color: antiquewhite;
+    display: none;
+    overflow: hidden;
+  }
+
+.laba2{
+    display: flex;
+}
+
+.laba2 img{
+    margin: 35px;
+    border-radius: 20px;
+}
+
+.panel img{
+    border-radius: 20px;
+    margin: 35px;
+}
+
+.accordion:after {
+    content: '\02795';
+    color: #0a0101;
+    float: right;
+    margin-left: 5px;
+}
+  
+.active:after {
+    content: "\2796"; 
+}
+.accordion{
+    margin: 2px;
+}
+
+@keyframes bounce {
+	0%, 20%, 60%, 100% {
+		transform: translateY(0);
+		transform: translateY(0);
+	}
+
+	40% {
+		transform: translateY(-20px);
+		transform: translateY(-20px);
+	}
+
+	80% {
+		transform: translateY(-10px);
+		transform: translateY(-10px);
+	}
+}
+
+.mphoto1:hover {
+	animation: bounce 1s;
+}
+
+.mphoto2:hover {
+	animation: bounce 1s;
+}
+
+.mphoto3:hover {
+	animation: bounce 1s;
+}
+
+.mphoto4:hover {
+	animation: bounce 1s;
+}
+
+.mphoto5:hover {
+	animation: bounce 1s;
+}
+
+.sportmy:hover {
+	animation: bounce 1s;
+}
